@@ -12,7 +12,7 @@ export default function Home() {
   return (
 <>
 <h2 className="text-4xl font-bold">Trendy & Stylish Accessories</h2>
-        <p className="mt-4 text-lg">Find the latest fashion accessories that match your style. <a href="https://textify.ai" className="text-blue-600">Powered by Textify AI</a></p>
+        <p className="mt-4 text-lg">Find the latest fashion accessories that match your style.</p>
         <button className="mt-6 px-6 py-3 bg-pink-600 text-white rounded-lg">Shop Now</button>
 
         <section className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -28,7 +28,6 @@ export default function Home() {
               <button className="mt-4 px-4 py-2 bg-pink-600 text-white rounded-lg">
                 <a href="https://google.com" target="_blank" rel="noopener noreferrer">Buy Now</a>
               </button>
-              <p className="mt-2 text-sm text-gray-500"><a href="https://textify.ai" className="text-blue-600">Powered by Textify AI</a></p>
             </div>
           ))}
         </section>
